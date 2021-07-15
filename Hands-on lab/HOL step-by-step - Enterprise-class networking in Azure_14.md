@@ -10,7 +10,7 @@ In this exercise, you will validate connectivity from your simulated on-premises
 
 2.  On the **Create a virtual machine** blade, on the **Basics** tab, enter the following information, and select **Next : Disks >**:
 
-    -  Subscription: **Select your subscription*.
+    -  Subscription: **Select your subscription**.
 
     -  Resource group: Select **Create new** and enter **OnPremVMRG**.
 
