@@ -26,7 +26,7 @@ Duration: 15 minutes
 
     -  Subnet name: **GatewaySubnet** (Select the **default** name and change to this name.)
 
-    -  Subnet address range: **10.7.0.0/29**
+    -  Subnet address range: **10.7.0.0/29** and click on **Save**
 
 5.  Select **Next: Security**.
 
@@ -35,6 +35,8 @@ Duration: 15 minutes
 6.  On the **Create virtual network Security** tab, select **Enable** for BastionHost.
 
 7.  Enter the following information:
+
+    -  Bastion Host: **Enable**
 
     -  Bastion name: **WGBastion**
 
