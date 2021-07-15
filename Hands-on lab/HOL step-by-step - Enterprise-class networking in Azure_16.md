@@ -52,7 +52,7 @@ In this exercise, you will collect the flow log and perform connectivity from yo
 
      ![The NSG Flow logs blade listing the network security groups. Both NSGs show a status of enabled.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image189.png "Network Watcher Flow Log")
 
-10. Navigate back to the **OnPremVM**. Connect to it by downloading and opening the RDP file. Then open another RDP connection to the **WGMGMT1** virtual machine within the connection to **OnPremVM**. In the RDP connection to **WGMGMT1**, navigate to the load balancer's private ip and generate some traffic by refreshing the browser. Allow ten minutes to pass for traffic analytics to generate.  
+10. Navigate back to the **OnPremVM**. Connect to it by downloading and opening the RDP file. Then open another RDP connection to the **WGWEB1** virtual machine within the connection to **OnPremVM**. In the RDP connection to **WGWEB1**, navigate to the load balancer's private ip (**10.8.0.100**) and generate some traffic by refreshing the browser. Allow ten minutes to pass for traffic analytics to generate.  
 
      ![CloudShop External and Internal web application.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image190.png "CloudShop Application")
 
