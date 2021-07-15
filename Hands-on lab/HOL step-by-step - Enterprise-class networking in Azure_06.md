@@ -8,9 +8,9 @@ Duration: 15 minutes
 
 2.  On the **Create virtual network** blade, on the **Basic** tab, enter the following information:
 
-    -  Subscription: **Select your subscription**.
+    -  Subscription: **Select the subscription available**
   
-    -  Resource group: Select **Create new**, and enter the name **WGVNetRG1**.
+    -  Resource group: **WGVNetRG1** from the drop-down option
 
     -  Name: **WGVNet1**
 
