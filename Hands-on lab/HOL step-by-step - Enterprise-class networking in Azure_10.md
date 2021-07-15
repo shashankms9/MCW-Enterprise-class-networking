@@ -76,7 +76,7 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
     **It will take 2-3 minutes for the changes to save.**
 
-10. From an RDP session to WGWEB1, open your browser and navigate to <http://10.8.0.100>. Ensure that you successfully connect to either one of two Web servers. 
+10. Connect to WGWEB1 via Bastion, open your browser and navigate to <http://10.8.0.100>. Ensure that you successfully connect to either one of two Web servers.
 
     ![A CloudShop Demo - Products - running on Web1 message displays. ](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image77.png "Server response")
 
