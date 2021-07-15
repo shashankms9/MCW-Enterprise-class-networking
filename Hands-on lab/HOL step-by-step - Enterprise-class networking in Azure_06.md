@@ -76,7 +76,7 @@ First Line
 
     ![In the Subnets blade, the add Subnet button is selected.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image29.png "Subnets blade")
 
-3.  On the **Add subnet** blade, enter the following information:
+3.  On the **Add subnet** blade, enter the following information and click on **Save**.
 
     -  Name: **Management**
 
@@ -92,7 +92,7 @@ First Line
 
     ![Field values in the Add Subnet blade are set to the previously defined settings.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image30.png "Add Subnet blade")
 
-5. Repeat Step 3, enter the following information for the Azure Firewall which we will use to control traffic flow in and out of the Network. 
+5. Repeat Step 3, enter the following information for the Azure Firewall which we will use to control traffic flow in and out of the Network and click on **Save**
 
     -  Name: **AzureFirewallSubnet** (This name is fixed and cannot be changed.)
 
