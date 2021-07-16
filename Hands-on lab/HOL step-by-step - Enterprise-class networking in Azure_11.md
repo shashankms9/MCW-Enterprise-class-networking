@@ -20,7 +20,7 @@ In this exercise, you will provision and configure an Azure firewall in your net
 
     -  Select a Virtual network: Select **Use existing** and then select **WGVNet1**.
 
-    -  Public IP address: **Create new**
+    -  Public IP address: **Add new**
 
     -  Public IP address name: **azureFirewall-ip**
 
