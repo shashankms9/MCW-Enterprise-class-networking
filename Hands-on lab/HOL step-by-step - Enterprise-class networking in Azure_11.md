@@ -46,7 +46,7 @@ Within 1-2 minutes, the resource group **WGVNetRG1** will have the firewall crea
 
     ![The Azure Firewall page with the rules selected under the settings menu.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image173.png "Azure Firewall overview page")
 
-5.  Select **+ Add NAT Rule collection** and enter the following information to create an inbound NAT Rule (collection is a list of rules that share the same priority and action):
+5.  Select **+ Add NAT Rule collection** and enter the following information to create an inbound NAT Rule (collection is a list of rules that share the same priority and action) then select **Add:**
 
     -  Name: **NATRuleCollection1**
 
