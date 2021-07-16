@@ -66,13 +66,23 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
 8.  Select **OK**.
 
-9.  After the Health probe has updated. Select **Load balancing rules**. Select **+Add** and complete the configuration as shown below followed by selecting **OK**.
+9.  After the Health probe has updated. Select **Load balancing rules**. Select **+Add** and complete the configuration as shown below followed by selecting **Add**.
 
     - Name: **HTTP**
   
-    - Leave the rest as defaults.
+    - FrontEnd ip address: **LoadbalancerFrontend(10.8.0.100)**
+   
+    - Protocol: **TCP**
 
-    ![The add load balancing rule blade for the WGWEBLB load balancer is displayed with the name set to HTTP and all of the remaining configurations set to the default.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image168.png "Add load balancing rule")
+    - Port: **80**   
+
+    - Backend port: **80**
+
+    - Backend pool: **LBBE**
+
+    - Health probe: **HTTP(HTTP:80)**
+
+    ![The add load balancing rule blade for the WGWEBLB load balancer is displayed with the name set to HTTP and all of the remaining configurations set to the default.](images/loadbalancing_rule.png "Add load balancing rule")
 
     **It will take 2-3 minutes for the changes to save.**
 
