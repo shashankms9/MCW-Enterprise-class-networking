@@ -28,6 +28,10 @@ In this exercise, you will collect the flow log and perform connectivity from yo
 
 3. Repeat steps 1 and 2, but select **East US** for the region and give it a different name.
 
+    ![The create storage account blade with the above configuration values set.](images/store01.png "Add storage account")
+
+    ![The create storage account blade with the above configuration values set.](images/store03.png "Add storage account")
+
 4. On the Azure portal select **All services** at the left navigation. From the Categories menu select **Networking** then select **Network Watcher**.
 
 5. From the **Network Watcher** blade under the **Logs** menu on the left, select **NSG flow logs**. Select **+ Create**. 
