@@ -74,7 +74,7 @@ When packets arrive from the simulated 'on-premises' Virtual Network (OnPremVNet
 
 1.  On the Azure portal select **All services** at the left navigation. Enter **Route** in the search box, and select **Route tables**.
 
-2.  On the **Route tables** blade, select **Add**.
+2.  On the **Route tables** blade, select **Create**.
 
 3.  On the **Create route table** blade, enter the following information:
 
