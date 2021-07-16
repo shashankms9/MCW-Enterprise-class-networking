@@ -58,7 +58,7 @@ In this exercise, we will simulate an on-premises connection to the internal web
 
     ![The Add subnet blade of the OnPremVNet virtual network. The Address range with the above address range specified and the OK button highlighted.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image123.png "Add subnet")
 
-4.  Next, select **+ Subnet** and add **OnPremManagementSubnet** to the **OnPremVNet**, as shown below in the screenshot:
+4.  Next, select **+ Subnet** and add **OnPremManagementSubnet** to the **OnPremVNet**, as shown below in the screenshot and select **Save**.
 
     - Name: **OnPremManagementSubnet**
   
