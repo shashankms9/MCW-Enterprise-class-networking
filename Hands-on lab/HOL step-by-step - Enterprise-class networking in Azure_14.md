@@ -12,7 +12,7 @@ In this exercise, you will validate connectivity from your simulated on-premises
 
     -  Subscription: **Select your subscription**.
 
-    -  Resource group: Select **Create new** and enter **OnPremVMRG**.
+    -  Resource group: **OnPremVMRG**.
 
     -  Virtual machine name: **OnPremVM**
 
