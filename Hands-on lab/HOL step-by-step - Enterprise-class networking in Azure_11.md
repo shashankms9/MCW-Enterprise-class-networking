@@ -84,7 +84,7 @@ Within 1-2 minutes, the resource group **WGVNetRG1** will have the firewall crea
 
     ![The Azure Firewall add NAT rule collection page with the above configuration values filled in.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image174.png "Azure Firewall NAT Rules")
 
-7.  Select **Add** and wait until the update completes.
+7.  Select **Save** and wait until the update completes.
 
 8.  Back on the Azure Firewall **Rules** page, select **Network rule collection**. Then Select **+ Add Network Rule collection** and enter the following information to create a Network Rule for inbound traffic. This rule allows HTTP connectivity from any directly connected network targeting the frontend IP address of the load balancer.
 
