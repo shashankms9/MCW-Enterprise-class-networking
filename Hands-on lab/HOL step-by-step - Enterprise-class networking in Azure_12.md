@@ -26,9 +26,21 @@ In this exercise, we will simulate an on-premises connection to the internal web
 
 3.  Leave the other options with their default values.
 
-4.  Upon completion, it should look like the following screenshot and then click on **Review+Create** to validate the information is correct, and select **Create**.
+4.  Upon completion, it should look like the following screenshot and then click on **Review+Create** to validate the information is correct, and select **Next: IP Addresses**.
 
     ![The create virtual network blade is shown with the above configuration values specified and the create button highlighted.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image121.png "Create virtual network")
+
+5. On the **IP addresses** tab of the **Create virtual network blade**, enter the following information.
+
+    -  Address space: **192.168.0.0/16**
+
+    - Select **+ Add subnet** then enter the following information in the blade that appears on the right and select **Add**.
+
+      -  Subnet name: **default**
+
+      -  Subnet address range: **192.168.0.0/24**
+
+6. Select **Review + create** then **Create**.
 
 ### Task 2: Configure gateway subnets for on premise Virtual Network
 
