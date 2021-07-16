@@ -52,7 +52,7 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
 6.  Wait to proceed until the Backend pool configuration is finished updating.
 
-    ![The WGWEBLB backend pools blade is shown. The two virtual machines in the backend pool show a status of running, indicating that the backend pool configuration is complete.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image167.png "Backend pool blade")
+    ![The WGWEBLB backend pools blade is shown. The two virtual machines in the backend pool show a status of running, indicating that the backend pool configuration is complete.](images/backendpool.png "Backend pool blade")
 
 7.  Next, under **Settings** on the WGWEBLB Load Balancer blade select **Health Probes**. Select **+ Add**, and use the following information to create a health probe.
 
