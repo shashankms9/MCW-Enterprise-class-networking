@@ -56,7 +56,7 @@ Within 1-2 minutes, the resource group **WGVNetRG1** will have the firewall crea
 
     -  Protocol: **TCP**
 
-    -  Source address: **\***
+    -  Source: **\***
 
     -  Destination Address: Type the public IP address assigned to the firewall you identified earlier in this task.
 
@@ -72,7 +72,7 @@ Within 1-2 minutes, the resource group **WGVNetRG1** will have the firewall crea
   
     - Protocol: **TCP**
   
-    - Source Addresses: **\***
+    - Source: **\***
   
     - Destination Address: Type the public IP address assigned to the firewall you identified earlier in this task.
   
