@@ -151,21 +151,39 @@ In this exercise, we will simulate an on-premises connection to the internal web
 
 2.  On the **Connection** blade, select **Create**.
 
-3.  On the **Basics** blade, leave the **Connection type** set to **VNet-to-VNet**. Select the existing **WGVNetRG1** resource group. Then, change the location of this connection to the Azure region hosting the **WGVNet1** virtual network, **South Central US**. Select **OK**.
+3.  On the **Basics** blade, enter the following information and select **Next:Settings>**
 
-    ![The create connection blade with the basics tab selected. The configuration values are set to those in the instructions above.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image134.png "Basics")
+    -  Resource group: **WGVNetRG1**
 
-4.  On the Settings tab, select **WGVNet1Gateway** as the first virtual network gateway and **OnPremWGGateway** as the second virtual network gateway. Ensure **Establish bidirectional connectivity** and **IKEV2** is selected. Enter a shared key, such as **A1B2C3D4**. Select **OK**.
+    -  Connection type: **Vnet-to-Vnet**
 
-    ![The create connection blade, on the Settings tab, select WGVNet1Gateway as the first virtual network gateway and OnPremWGGateway as the first virtual network gateway. Ensure Establish bidirectional connectivity is selected. Enter a Shared key, such as A1B2C3D4, for example.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image178.png "select virtual network gateway")
+    -  Establish bidirectional connectivity: **Enable**
 
-5.  Select **OK** on the **Summary** page to create the connection.
+    -  First connection Name: **WGVNet1Gateway-to-OnPremWGGateway**
 
-6.  In the Azure portal, select **All services**. Then, type **connections** in the search text box and select **Connections**.
+    -  Second connection name: **OnPremWGGateway-to-WGVNet1Gateway**
+
+    -  Region: **South Central US**
+
+    ![The create connection blade with the basics tab selected. The configuration values are set to those in the instructions above.](images/createconnection1.png "Basics")
+
+4.  On the Settings tab, enter the following information and click **Review + create** and then **Create**
+
+    - First virtual network gateway: **WGVnet1Gateway**
+
+    - Second virtual metwork gateway: **OnPremWGGateway**
+
+    - Shared key (PSK): **AIB2C3D4**
+
+    - IKE Protocol: **IKEv2**
+
+    ![The create connection blade, on the Settings tab, select WGVNet1Gateway as the first virtual network gateway and OnPremWGGateway as the first virtual network gateway. Ensure Establish bidirectional connectivity is selected. Enter a Shared key, such as A1B2C3D4, for example.](images/createconnection2.png "select virtual network gateway")
+
+5.  In the Azure portal, select **All services**. Then, type **connections** in the search text box and select **Connections**.
 
     ![In the Azure portal, Browse is selected. In the search field, connections is typed. In the results section, Connections is selected.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image138.png "Azure Portal")
 
-7.  Watch the progress of the connection status, and use the **Refresh** icon until the status changes for both connections from **Unknown** to **Connected**. This may take 5-10 minutes or more. You might need to refresh the page to see the change in status.
+6.  Watch the progress of the connection status, and use the **Refresh** icon until the status changes for both connections from **Unknown** to **Connected**. This may take 5-10 minutes or more. You might need to refresh the page to see the change in status.
 
     ![The Connections tab showing the connection status as Connected. The refresh button at the top of the screen has been selected.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image139.png "Connections blade")
 
