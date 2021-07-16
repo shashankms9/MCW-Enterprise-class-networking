@@ -20,11 +20,7 @@ In this exercise, you will collect the flow log and perform connectivity from yo
 
     -  Performance: **Standard**
 
-    -  Account Kind: **StorageV2 (general purpose v2)**
-
-    -  Replication: **Locally-redundant storage (LRS)**
-
-    -  Access Tier Default: **Hot**
+    -  Redundancy: **Locally-redundant storage (LRS)**
 
     ![The create storage account blade with the above configuration values set.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image186.png "Add storage account")
 
