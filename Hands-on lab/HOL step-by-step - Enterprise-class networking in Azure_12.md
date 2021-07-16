@@ -185,5 +185,5 @@ In this exercise, we will simulate an on-premises connection to the internal web
 
 6.  Watch the progress of the connection status, and use the **Refresh** icon until the status changes for both connections from **Unknown** to **Connected**. This may take 5-10 minutes or more. You might need to refresh the page to see the change in status.
 
-    ![The Connections tab showing the connection status as Connected. The refresh button at the top of the screen has been selected.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image139.png "Connections blade")
+    ![The Connections tab showing the connection status as Connected. The refresh button at the top of the screen has been selected.](images/connections.png "Connections blade")
 
