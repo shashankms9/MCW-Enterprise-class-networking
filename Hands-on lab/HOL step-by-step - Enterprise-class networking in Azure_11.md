@@ -104,7 +104,7 @@ Within 1-2 minutes, the resource group **WGVNetRG1** will have the firewall crea
 
     -  Destination ports: **80,443**
 
-9.  Crate another rule for Remote Desktop sessions from the Management subnet on WGVNet1.
+9.  Create another rule for Remote Desktop sessions from the Management subnet on WGVNet1.
 
     -  Rule Name: **IncomingMgmtRDP**
 
