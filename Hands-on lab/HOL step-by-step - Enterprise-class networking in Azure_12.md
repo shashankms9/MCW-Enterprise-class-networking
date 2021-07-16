@@ -16,7 +16,7 @@ In this exercise, we will simulate an on-premises connection to the internal web
 
     -  Subscription: **Select your subscription**.
 
-    -  Resource group: Select **Create new**, and enter the name **OnPremVNetRG**.
+    -  Resource group: **OnPremVNetRG**
 
     -  Location: **(US) East US** (Make sure this is **NOT** the same location you have specified in the previous exercises.)
 
