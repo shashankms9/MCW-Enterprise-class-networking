@@ -6,7 +6,7 @@ In this exercise, management of the Azure-based systems will only be available t
 
 ### Task 1: Build the Bastion host
 
-    >**Note**: This step should have been completed in Exercise 1, Task 1.  If it was not, please complete the steps below.
+This step should have been completed in Exercise 1, Task 1.  If it was not, please complete the steps below.
 
 1.  In the Azure portal, select **+ Create a resource** then select **Bastion**. In the search results, select the Bastion service with Microsoft as the publisher.
 
