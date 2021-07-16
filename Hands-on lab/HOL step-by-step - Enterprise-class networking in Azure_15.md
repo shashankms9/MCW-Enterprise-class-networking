@@ -4,7 +4,7 @@ Duration: 15 minutes
 
 ### Task 1: Create a Log Analytics Workspace
 
-1.  From your **LABVM**, connect to the Azure portal, select **+ Create a resource**, and in the list of Marketplace categories, select **IT & Management Tools** followed by selecting **Log Analytics**.
+1.  On the Azure portal, select **+ Create a resource**, and in the list of Marketplace categories, select **IT & Management Tools** followed by selecting **Log Analytics**.
 
 2.  On the **Create workspace** blade, enter the following information:
 
@@ -12,7 +12,7 @@ Duration: 15 minutes
 
     -  Subscription: **Select your subscription**.
 
-    -  Resource group: Select **Create new**, and enter the name **MonitoringRG**.
+    -  Resource group: **MonitoringRG**.
 
     -  Location: **East US**
 
