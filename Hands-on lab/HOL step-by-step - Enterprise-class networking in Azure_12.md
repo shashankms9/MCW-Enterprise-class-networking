@@ -26,7 +26,7 @@ In this exercise, we will simulate an on-premises connection to the internal web
 
 3.  Leave the other options with their default values.
 
-4.  Upon completion, it should look like the following screenshot. Validate the information is correct, and select **Create**.
+4.  Upon completion, it should look like the following screenshot and then click on **Review+Create** to validate the information is correct, and select **Create**.
 
     ![The create virtual network blade is shown with the above configuration values specified and the create button highlighted.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image121.png "Create virtual network")
 
