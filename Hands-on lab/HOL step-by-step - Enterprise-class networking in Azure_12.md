@@ -34,13 +34,11 @@ In this exercise, we will simulate an on-premises connection to the internal web
 
     -  Address space: **192.168.0.0/16**
 
-    - Select **+ Add subnet** then enter the following information in the blade that appears on the right and select **Add**.
+6. Select **default** subnet and update the subnet address range with **192.168.0.0/16**.
 
-      -  Subnet name: **default**
+7. Click on **Save**.
 
-      -  Subnet address range: **192.168.0.0/24**
-
-6. Select **Review + create** then **Create**.
+8. Select **Review + create** then **Create**.
 
 ### Task 2: Configure gateway subnets for on premise Virtual Network
 
