@@ -22,7 +22,7 @@ In this exercise, you will collect the flow log and perform connectivity from yo
 
     -  Redundancy: **Locally-redundant storage (LRS)**
 
-    ![The create storage account blade with the above configuration values set.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image186.png "Add storage account")
+    ![The create storage account blade with the above configuration values set.](images/ecnstore-ex10.png "Add storage account")
 
    >**Note:** Ensure the storage account is created before continuing.
 
