@@ -18,7 +18,7 @@ Route Tables are containers for User Defined Routes (UDRs). The route table is c
 
     -  Location: **(US) South Central US**
 
-    -  Virtual network gateway route propagation: **Enabled**
+    -  Propagate gateway routes: **Yes**
 
 3.  When the dialog looks like the following screenshot, select **Create**.
 
@@ -34,7 +34,7 @@ Route Tables are containers for User Defined Routes (UDRs). The route table is c
 
     -  Location: **(US) South Central US**
 
-    -  Virtual network gateway route propagation: **Enabled**
+    -  Propagate gateway routes: **Yes**
 
 5.  Once route tables are created, your **Route tables** blade should look like the following screenshot:
 
