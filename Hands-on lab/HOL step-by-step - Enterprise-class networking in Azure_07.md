@@ -4,7 +4,7 @@ Duration: 20 Minutes
 
 ### Task 1: Configure VNet peering WGVNet1 to WGVNet2 and Vice Versa
 
-1.  Select the resource group **WGVNetRG1**, and select the configuration blade for **WGVNet1**. select **Peerings** under **Settings** on the left.
+1.  Select the resource group **WGVNetRG1**, and select the configuration blade for **WGVNet1**. Select **Peerings** under **Settings** on the left.
 
 2.  Select **Add**.
 
