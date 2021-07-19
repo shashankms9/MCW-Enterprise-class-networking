@@ -4,7 +4,7 @@ Duration: 15 minutes
 
 ### Task 1: Create a Virtual Network
 
-1.  From your **LABVM**, connect to the Azure portal, select **+ Create a resource**, and in the list of Marketplace categories, select **Networking** followed by selecting **Virtual Network**.
+1.  From your **LABVM**, connect to the Azure portal, select **+ Create a resource**, and in the **Search the Marketplace** box, search for and select **Virtual network** and select **Create**. 
 
 2.  On the **Create virtual network** blade, on the **Basic** tab, enter the following information:
 
