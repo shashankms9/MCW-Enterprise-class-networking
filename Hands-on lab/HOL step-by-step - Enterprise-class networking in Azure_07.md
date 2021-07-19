@@ -10,7 +10,7 @@ Duration: 20 Minutes
 
     ![The WGVNet1 Virtual Network Peerings blade is shown. The add button is highlighted.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image92.png "Virtual network blade")
 
-3.  Set the following configuration for the new peering. Select **OK** to create the peering.
+3.  Set the following configuration for the new peering. Select **Add** to create the peering.
 
     - Peering Name (WGVNet1 to WGVNet2): **VNETPeering_WGVNet1-WGVNet2**
   
