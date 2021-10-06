@@ -63,15 +63,17 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
 7.  Next, under **Settings** on the WGWEBLB Load Balancer blade select **Health Probes**. Select **+ Add**, and use the following information to create a health probe.
 
+    ![Under Settings, Health probes is selected. In the Add health probe blade, HTTP displays in the Name field, and Protocol is set to HTTP.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image73.png "Settings section, Add health probe blade")
+
+8. Enter the following values:
+
     -  Name: **HTTP**
 
     -  Protocol: **HTTP**
-
-    ![Under Settings, Health probes is selected. In the Add health probe blade, HTTP displays in the Name field, and Protocol is set to HTTP.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image73.png "Settings section, Add health probe blade")
-
+    
     ![In the Add health probe blade, Name is HTTP, and Protocol is HTTP.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image75.png "Add health probe blade")
 
-8.  Select **OK**.
+8.  Select **Add**.
 
 9.  After the Health probe has updated. Select **Load balancing rules**. Select **+Add** and complete the configuration as shown below followed by selecting **Add**.
 
