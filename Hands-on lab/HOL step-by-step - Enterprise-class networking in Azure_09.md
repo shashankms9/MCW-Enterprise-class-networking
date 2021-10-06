@@ -10,13 +10,13 @@ Route Tables are containers for User Defined Routes (UDRs). The route table is c
 
 2.  On the **Create a Route table** blade enter the following information:
 
-    -  Name: **MgmtRT**
-
     -  Subscription: **Select your subscription**.
 
     -  Resource group: Select **WGVNetRG1** from the drop down.
 
-    -  Location: **(US) South Central US**
+    -  Region: **(US) South Central US**
+
+    -  Name: **MgmtRT**
 
     -  Propagate gateway routes: **Yes**
 
@@ -26,13 +26,13 @@ Route Tables are containers for User Defined Routes (UDRs). The route table is c
 
 4.  Repeat steps 1 and 2 to create the **AppRT** route table:
 
-    -  Name: **AppRT**
-
     -  Subscription: **Select your subscription**.
 
     -  Resource group: Select **WGVNetRG2** from the drop down.
 
-    -  Location: **(US) South Central US**
+    -  Region: **(US) South Central US**
+
+    -  Name: **AppRT**
 
     -  Propagate gateway routes: **Yes**
 
