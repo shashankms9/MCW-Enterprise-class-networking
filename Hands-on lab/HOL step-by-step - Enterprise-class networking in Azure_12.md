@@ -58,7 +58,7 @@ In this exercise, we will simulate an on-premises connection to the internal web
 
     - Name: **OnPremManagementSubnet**
   
-    - Address range: **192.168.2.0/29**
+    - Subnet Address range: **192.168.2.0/29**
   
     - Leave the rest of the values as their defaults. 
 
