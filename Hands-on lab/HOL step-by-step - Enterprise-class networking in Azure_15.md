@@ -10,7 +10,7 @@ Duration: 15 minutes
 
      -  Subscription: **Select your subscription**.
 
-    -  Resource group: Select **Create new**, and enter the name **MonitoringRG**.
+    -  Resource group: Select **MonitoringRG** from drop-down.
 
     -  Name: **Enter a unique name all lowercase**
 
