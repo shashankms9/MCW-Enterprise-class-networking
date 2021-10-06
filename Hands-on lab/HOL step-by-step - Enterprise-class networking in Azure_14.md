@@ -20,7 +20,7 @@ In this exercise, you will validate connectivity from your simulated on-premises
 
     -  Availability options: **No infrastructure redundancy required**
 
-    -  Image: **[smalldisk] Windows Server 2016 Datacenter**
+    -  Image: **[smalldisk] Windows Server 2016 Datacenter-Gen1**
 
     -  Size: **Standard DS1 v2**
 
@@ -31,8 +31,6 @@ In this exercise, you will validate connectivity from your simulated on-premises
     -  Public inbound ports: **Allow selected ports**
 
     -  Select inbound ports: **RDP**
-
-    -  Already have a Windows license?: **No**
 
 3.  On the **Create a virtual machine** blade, on the **Disks** tab, set the following configuration and select **Next : Networking >**:
 
@@ -52,19 +50,19 @@ In this exercise, you will validate connectivity from your simulated on-premises
 
     -  Select inbound ports: **RDP**
 
-    -  Accelerated networking: **Off**
+    -  Accelerated networking: **Unchecked**
 
-    -  Place this virtual machine behind an existing load balancing solution: **No**
+    -  Place this virtual machine behind an existing load balancing solution: **Unchecked**
 
 5.  On the **Create a virtual machine** blade, on the **Management** tab, set the following configuration and select **Review + create**:
 
-    -  Boot diagnostics: **Off**
+    -  Boot diagnostics: **Disable**
 
-    -  OS guest diagnostics: **Off**
+    -  OS guest diagnostics: **Unchecked**
 
-    -  System assigned managed identity: **Off**
+    -  System assigned managed identity: **Unchecked**
 
-    -  Enable auto-shutdown: **Off**
+    -  Enable auto-shutdown: **Unchecked**
 
 6.  On the **Create a virtual machine** blade, on the **Review + Create** tab, ensure the validation passes, and select **Create**. The virtual machine will take about 5 minutes to provision.
 
@@ -86,7 +84,7 @@ When packets arrive from the simulated 'on-premises' Virtual Network (OnPremVNet
 
     -  Location: **(US) South Central US** (This must match the location in which you created the **WGVNet1** virtual network.)
 
-    -  Virtual network gateway route propagation: **Enable**
+    -  Virtual network gateway route propagation: **Yes**
 
     ![The create route table blade of the WGAzureVNetGWRT route table with the configuration values above set.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image180.png "Create route table")
 
