@@ -16,7 +16,7 @@ Duration: 15 minutes
 
     -  Location: **East US**
 
-3.  Upon completion, it should look like the following screenshot. Validate the information is correct, and select **OK**.
+3.  Upon completion, it should look like the following screenshot. Select **Review + Create** then validate the information is correct and select **Create**.
 
     ![This represents the properly filled out fields when creating a Log Analytics Workspace.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image160.png "Create Log Analytics Workspace")
 
