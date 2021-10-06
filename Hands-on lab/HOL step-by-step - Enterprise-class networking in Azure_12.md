@@ -12,7 +12,7 @@ In this exercise, we will simulate an on-premises connection to the internal web
 
     -  Subscription: **Select your subscription**.
 
-    -  Resource group: Select **Create new**, and enter the name **OnPremVNetRG**.
+    -  Resource group: Select **OnPremVNetRG**.
 
     -  Name: **OnPremVNet**
 
@@ -22,7 +22,7 @@ In this exercise, we will simulate an on-premises connection to the internal web
 
 4.  Upon completion, it should look like the following screenshot and then click on **Review+Create** to validate the information is correct, and select **Next: IP Addresses**.
 
-    ![The create virtual network blade is shown with the above configuration values specified and the create button highlighted.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image121.png "Create virtual network")
+    ![The create virtual network blade is shown with the above configuration values specified and the create button highlighted.](images/onprem-vm.png "Create virtual network")
 
 5. On the **IP addresses** tab of the **Create virtual network blade**, enter the following information.
 
@@ -33,6 +33,8 @@ In this exercise, we will simulate an on-premises connection to the internal web
       -  Subnet name: **default**
 
       -  Subnet address range: **192.168.0.0/24**
+     
+     ![The create virtual network blade is shown with the above configuration values specified and the create button highlighted.](images/onprem-vm-create.png "Create virtual network")
 
 6. Select **Review + create** then **Create**.
 
