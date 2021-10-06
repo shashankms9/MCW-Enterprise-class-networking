@@ -46,7 +46,7 @@ In this exercise, we will simulate an on-premises connection to the internal web
 
     ![The OnPremVNet subnet blade with Subnets highlighted in the menu and the + Gateway subnet highlighted.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image122.png "Virtual network blade")
 
-3.  Specify the following configuration for the subnet, and select **OK**:
+3.  Specify the following configuration for the subnet, and select **Save**:
 
     -  Subnet Address range: **192.168.1.0/29**
 
