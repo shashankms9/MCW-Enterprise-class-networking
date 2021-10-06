@@ -62,11 +62,6 @@ Duration: 15 minutes
 
 
 ### Task 2: Configure subnets
-First Line 
-   Line 2 
- line 3 
-  line 4
-
 
 1.  Go to the WGVNetRG1 Group, and select **WGVNet1 Virtual Network** blade if you're not there already, and select **Subnets** under **Settings** on the left.
 
