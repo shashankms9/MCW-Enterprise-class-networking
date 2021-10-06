@@ -12,19 +12,19 @@ Duration: 20 Minutes
 
 3.  Set the following configuration for the new peering. Select **Add** to create the peering.
 
-    - Peering Name (WGVNet1 to WGVNet2): **VNETPeering_WGVNet1-WGVNet2**
+    - Peering link name (This virtual network): **VNETPeering_WGVNet1-WGVNet2**
+
+    - Traffic to remote virtual network: **Allow (default)**
+
+    - Traffic forwarded from remote virtual network: **Allow (default)**
   
+    - Peering link name (Remote virtual network: **VNETPeering_WGVNet2-WGVNet1**
+
     - Virtual Network: **WGVNet2**
-  
-    - Peering Name (WGVNet2 to WGVNet1): **VNETPeering_WGVNet2-WGVNet1**
 
-    - Allow virtual network access from WGVNet1 to WGVNet2: **Enabled**
-   
-    - Allow virtual network access from WGVNet2 to WGVNet1: **Enabled** 
+    - Traffic to remote virtual network: **Allow (default)**
 
-    - Allow forwarded traffic from WGVNet2 to WGVNet1: **Enabled**
-  
-    - Allow forwarded traffic from WGVNet1 to WGVNet2: **Enabled**
+    - Traffic forwarded from remote virtual network: **Allow (default)**
 
     ![The add peering blade is shown with the values above specified and highlighted. The OK button is highlighted.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image171.png "WGVNet1 add peering blade")
 
