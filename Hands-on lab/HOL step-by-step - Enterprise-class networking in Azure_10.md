@@ -76,7 +76,7 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
     - Name: **HTTP**
   
-    - FrontEnd ip address: **LoadbalancerFrontend(10.8.0.100)**
+    - FrontEnd ip address: **LBFE(10.8.0.100)**
    
     - Protocol: **TCP**
 
@@ -88,7 +88,7 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
     - Health probe: **HTTP(HTTP:80)**
 
-    ![The add load balancing rule blade for the WGWEBLB load balancer is displayed with the name set to HTTP and all of the remaining configurations set to the default.](images/loadbalancing_rule.png "Add load balancing rule")
+    ![The add load balancing rule blade for the WGWEBLB load balancer is displayed with the name set to HTTP and all of the remaining configurations set to the default.](images/loadbalancer-5.png "Add load balancing rule")
 
     **It will take 2-3 minutes for the changes to save.**
 
