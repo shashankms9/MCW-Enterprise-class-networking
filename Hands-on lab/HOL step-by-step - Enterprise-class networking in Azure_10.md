@@ -36,9 +36,9 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
     -  IP address assignment: Select **Static** and enter the IP address **10.8.0.100**.
     
- 4.  After adding a Frontend IP then select **Review + create** check for Validation Pass and select **Create**.
+ 4.  After adding a Frontend IP then select **Review + create** check for Validation Passed and select **Create**.
  
-    ![The create load balancer blade is shown with the above configuration values set.](images/load-balancer-finish.png "Create load balancer")
+     ![The create load balancer blade is shown with the above configuration values set.](images/load-balancer-finish.png "Create load balancer")
      
 
 ### Task 2: Configure the load balancer
