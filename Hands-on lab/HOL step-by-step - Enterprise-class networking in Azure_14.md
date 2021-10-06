@@ -76,15 +76,15 @@ When packets arrive from the simulated 'on-premises' Virtual Network (OnPremVNet
 
 3.  On the **Create route table** blade, enter the following information:
 
-    -  Name: **WGAzureVNetGWRT**
-
-    -  Subscription: **Select your subscription**.
+     -  Subscription: **Select your subscription**.
 
     -  Resource group: Select the drop-down menu, and select **WGVNetRG1**.
 
-    -  Location: **(US) South Central US** (This must match the location in which you created the **WGVNet1** virtual network.)
+    -  Region: **(US) South Central US** (This must match the location in which you created the **WGVNet1** virtual network.)
 
-    -  Virtual network gateway route propagation: **Yes**
+    -  Name: **WGAzureVNetGWRT**
+
+    -  Propagate gateway routes: **Yes**
 
     ![The create route table blade of the WGAzureVNetGWRT route table with the configuration values above set.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image180.png "Create route table")
 
