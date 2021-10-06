@@ -22,11 +22,13 @@ Duration: 15 minutes
    
 4.  On the **Create virtual network IP Addresses** tab, enter the following information:
 
-    -  Address space: **10.7.0.0/20**
+     -  IPv4 Address space: **10.7.0.0/20**
 
-    -  Subnet name: **GatewaySubnet** (Select the **default** name and change to this name.)
+    - Select **+ Add subnet** then enter the following information and select **Add**. 
 
-    -  Subnet address range: **10.7.0.0/29** and click on **Save**
+      - Subnet name: **GatewaySubnet**
+
+      - Subnet address range: **10.7.0.0/29**
 
 5.  Select **Next: Security**.
 
