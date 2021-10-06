@@ -10,7 +10,7 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
     ![In the Azure Portal, New is selected. Under Azure Marketplace, Networking is selected, and under Featured, Load Balancer is selected.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image65.png "Azure Portal")
 
-2.  On the **Create load balancer** blade, on the **Basics** tab, enter the following values:
+2.  On the **Create load balancer** blade, on the **Basics** tab, enter the following values and select **Next: Frontend IP Configuration**
 
     -  Subscription: **Select your subscription**.
 
@@ -22,7 +22,13 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
     -  Type: **Internal**
 
-    -  SKU: **Basic**
+    -  SKU: **Standard**
+    
+    ![The create load balancer blade is shown with the above configuration values set.](images/loadbalancer-1.png "Create load balancer")
+    
+3.  In **Frontend IP Configuration**, select  **Add a frontend IP**. Enter the following values in the right-side **Add frontend IP address** tab and select **Add**:
+
+    -  Name: **LBFE**
 
     -  Virtual network: **WGVNet2**
 
@@ -30,9 +36,9 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
     -  IP address assignment: Select **Static** and enter the IP address **10.8.0.100**.
 
-    Ensure your **Create load balancer** dialog looks like the following, and select **Review + create** then select **Create**.
+    After adding a Frontend IP then select **Review + create** check for Validation Pass and select **Create**.
 
-    ![The create load balancer blade is shown with the above configuration values set.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image166.png "Create load balancer")
+    ![The create load balancer blade is shown with the above configuration values set.](images/loadbalancer-2.png "Create load balancer")
 
 ### Task 2: Configure the load balancer
 
