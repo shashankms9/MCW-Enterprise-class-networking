@@ -48,7 +48,7 @@ In this exercise, we will simulate an on-premises connection to the internal web
 
 3.  Specify the following configuration for the subnet, and select **OK**:
 
-    -  Address range: **192.168.1.0/29**
+    -  Subnet Address range: **192.168.1.0/29**
 
     -  Route table: **None** (We will add later.)
 
