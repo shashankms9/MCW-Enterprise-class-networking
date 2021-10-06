@@ -58,9 +58,7 @@ Duration: 15 minutes
 
     ![The create virtual network review + create dialog is displayed. The configuration options specified in the previous step are highlighted. ](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/20201112virtualnetworkreview.png "Create virtual network: Review + create")
 
-11. Upon completion, it should look like the following screenshot. Validate the information is correct, and select **Create**.
-
-    ![The create virtual network dialog is displayed. The configuration options specified in the previous step are highlighted. ](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image26.png "Create virtual network")
+11. Monitor the deployment status by selecting **Notifications Bell** at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select **Go to Resource**.
 
 
 ### Task 2: Configure subnets
