@@ -24,7 +24,7 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
     -  SKU: **Standard**
     
-    ![The create load balancer blade is shown with the above configuration values set.](images/loadbalancer-1.png "Create load balancer")
+    ![The create load balancer blade is shown with the above configuration values set.](images/load-balancer-create.png "Create load balancer")
     
 3.  In **Frontend IP Configuration**, select  **Add a frontend IP**. Enter the following values in the right-side **Add frontend IP address** tab and select **Add**:
 
@@ -35,10 +35,11 @@ In this exercise, you will create and configure a load balancer to distribute lo
     -  Subnet: **AppSubnet (10.8.0.0/25)**
 
     -  IP address assignment: Select **Static** and enter the IP address **10.8.0.100**.
-
-    ![The create load balancer blade is shown with the above configuration values set.](images/loadbalancer-2.png "Create load balancer")
     
-    After adding a Frontend IP then select **Review + create** check for Validation Pass and select **Create**.
+ 4.  After adding a Frontend IP then select **Review + create** check for Validation Pass and select **Create**.
+ 
+    ![The create load balancer blade is shown with the above configuration values set.](images/load-balancer-finish.png "Create load balancer")
+     
 
 ### Task 2: Configure the load balancer
 
