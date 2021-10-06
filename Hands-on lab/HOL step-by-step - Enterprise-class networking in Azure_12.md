@@ -135,7 +135,7 @@ In this exercise, we will simulate an on-premises connection to the internal web
 
     ![The create virtual network gateway blade with the above configuration values set.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image177.png "Create virtual network gateway")
 
-3.  Validate your settings and select **Create**.
+3.  Validate your settings and select **Review + Create** then **Create**.
 
     >**Note:** The gateway will take 30-45 minutes to provision. You will need to wait until both gateways are provisioned before proceeding to the next section.
 
