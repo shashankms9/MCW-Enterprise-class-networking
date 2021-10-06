@@ -10,19 +10,13 @@ In this exercise, we will simulate an on-premises connection to the internal web
 
 2.  On the **Create virtual network** blade, enter the following information:
 
-    -  Name: **OnPremVNet**
-
-    -  Address space: **192.168.0.0/16**
-
     -  Subscription: **Select your subscription**.
 
-    -  Resource group: **OnPremVNetRG**
+    -  Resource group: Select **Create new**, and enter the name **OnPremVNetRG**.
 
-    -  Location: **(US) East US** (Make sure this is **NOT** the same location you have specified in the previous exercises.)
+    -  Name: **OnPremVNet**
 
-    -  Subnet name: **default**
-
-    -  Subnet address range: **192.168.0.0/24**
+    -  Region: **(US) East US** (Make sure this is **NOT** the same location you have specified in the previous exercises.)
 
 3.  Leave the other options with their default values.
 

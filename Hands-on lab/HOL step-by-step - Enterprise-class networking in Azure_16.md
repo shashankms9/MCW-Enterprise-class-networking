@@ -20,17 +20,15 @@ In this exercise, you will collect the flow log and perform connectivity from yo
 
     -  Performance: **Standard**
 
-    -  Redundancy: **Locally-redundant storage (LRS)**
+    -  Account Kind: **StorageV2 (general purpose v2)**
 
-    ![The create storage account blade with the above configuration values set.](images/ecnstore-ex10.png "Add storage account")
+    -  Replication: **Locally-redundant storage (LRS)**
+
+    ![The create storage account blade with the above configuration values set.](images/storageaccount-1.png "Add storage account")
 
    >**Note:** Ensure the storage account is created before continuing.
 
 3. Repeat steps 1 and 2, but select **East US** for the region and give it a different name.
-
-    ![The create storage account blade with the above configuration values set.](images/store01.png "Add storage account")
-
-    ![The create storage account blade with the above configuration values set.](images/store03.png "Add storage account")
 
 4. On the Azure portal select **All services** at the left navigation. From the Categories menu select **Networking** then select **Network Watcher**.
 
@@ -59,6 +57,8 @@ In this exercise, you will collect the flow log and perform connectivity from yo
     - Traffic Analytics processing interval: **Every 10 minutes**
 
     - Log Analytics Workspace: **The log analytics workspace you created earlier**
+
+    >**Note**: NSG Flow log creation may get failed due to permission issue but you could see flow logs successfully created as shown in the next step. 
 
 8.  Repeat Steps 5 - 7 to create a flow log for the **OnPremVM-nsg** Network Security Group as well. When completed your **NSG flow logs** blade on **Network Watcher** should look like what's depicted in the below image.
 

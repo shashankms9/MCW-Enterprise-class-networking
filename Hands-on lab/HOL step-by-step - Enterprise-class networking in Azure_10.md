@@ -10,7 +10,7 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
     ![In the Azure Portal, New is selected. Under Azure Marketplace, Networking is selected, and under Featured, Load Balancer is selected.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image65.png "Azure Portal")
 
-2.  On the **Create load balancer** blade, on the **Basics** tab, enter the following values:
+2.  On the **Create load balancer** blade, on the **Basics** tab, enter the following values and select **Next: Frontend IP Configuration**
 
     -  Subscription: **Select your subscription**.
 
@@ -22,7 +22,13 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
     -  Type: **Internal**
 
-    -  SKU: **Basic**
+    -  SKU: **Standard**
+    
+    ![The create load balancer blade is shown with the above configuration values set.](images/loadbalancer-1.png "Create load balancer")
+    
+3.  In **Frontend IP Configuration**, select  **Add a frontend IP**. Enter the following values in the right-side **Add frontend IP address** tab and select **Add**:
+
+    -  Name: **LBFE**
 
     -  Virtual network: **WGVNet2**
 
@@ -30,9 +36,9 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
     -  IP address assignment: Select **Static** and enter the IP address **10.8.0.100**.
 
-    Ensure your **Create load balancer** dialog looks like the following, and select **Review + create** then select **Create**.
-
-    ![The create load balancer blade is shown with the above configuration values set.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image166.png "Create load balancer")
+    ![The create load balancer blade is shown with the above configuration values set.](images/loadbalancer-2.png "Create load balancer")
+    
+    After adding a Frontend IP then select **Review + create** check for Validation Pass and select **Create**.
 
 ### Task 2: Configure the load balancer
 
@@ -70,7 +76,7 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
     - Name: **HTTP**
   
-    - FrontEnd ip address: **LoadbalancerFrontend(10.8.0.100)**
+    - FrontEnd ip address: **LBFE(10.8.0.100)**
    
     - Protocol: **TCP**
 
@@ -82,11 +88,11 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
     - Health probe: **HTTP(HTTP:80)**
 
-    ![The add load balancing rule blade for the WGWEBLB load balancer is displayed with the name set to HTTP and all of the remaining configurations set to the default.](images/loadbalancing_rule.png "Add load balancing rule")
+    ![The add load balancing rule blade for the WGWEBLB load balancer is displayed with the name set to HTTP and all of the remaining configurations set to the default.](images/loadbalancer-5.png "Add load balancing rule")
 
     **It will take 2-3 minutes for the changes to save.**
 
-10. Connect to WGWEB1 via Bastion, open your browser and navigate to <http://10.8.0.100>. Ensure that you successfully connect to either one of two Web servers.
+10. Connect to WGWEB1 via Bastion, use the given credentials for login to WGWEB1 i.e, Username: **demouser** Password: **demo@pass123**. Open your browser and navigate to <http://10.8.0.100>. Ensure that you successfully connect to either one of two Web servers.
 
     ![A CloudShop Demo - Products - running on Web1 message displays. ](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image77.png "Server response")
 
