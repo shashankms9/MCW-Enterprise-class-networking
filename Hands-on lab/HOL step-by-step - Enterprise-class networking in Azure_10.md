@@ -24,7 +24,7 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
     -  SKU: **Standard**
     
-    ![The create load balancer blade is shown with the above configuration values set.](images/loadbalancer-1.png "Create load balancer")
+    ![The create load balancer blade is shown with the above configuration values set.](images/load-balancer-create.png "Create load balancer")
     
 3.  In **Frontend IP Configuration**, select  **Add a frontend IP**. Enter the following values in the right-side **Add frontend IP address** tab and select **Add**:
 
@@ -35,10 +35,11 @@ In this exercise, you will create and configure a load balancer to distribute lo
     -  Subnet: **AppSubnet (10.8.0.0/25)**
 
     -  IP address assignment: Select **Static** and enter the IP address **10.8.0.100**.
-
-    ![The create load balancer blade is shown with the above configuration values set.](images/loadbalancer-2.png "Create load balancer")
     
-    After adding a Frontend IP then select **Review + create** check for Validation Pass and select **Create**.
+ 4.  After adding a Frontend IP then select **Review + create** check for Validation Passed and select **Create**.
+ 
+     ![The create load balancer blade is shown with the above configuration values set.](images/load-balancer-finish.png "Create load balancer")
+     
 
 ### Task 2: Configure the load balancer
 
@@ -62,15 +63,17 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
 7.  Next, under **Settings** on the WGWEBLB Load Balancer blade select **Health Probes**. Select **+ Add**, and use the following information to create a health probe.
 
+    ![Under Settings, Health probes is selected. In the Add health probe blade, HTTP displays in the Name field, and Protocol is set to HTTP.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image73.png "Settings section, Add health probe blade")
+
+8. Enter the following values:
+
     -  Name: **HTTP**
 
     -  Protocol: **HTTP**
-
-    ![Under Settings, Health probes is selected. In the Add health probe blade, HTTP displays in the Name field, and Protocol is set to HTTP.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image73.png "Settings section, Add health probe blade")
-
+    
     ![In the Add health probe blade, Name is HTTP, and Protocol is HTTP.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image75.png "Add health probe blade")
 
-8.  Select **OK**.
+8.  Select **Add**.
 
 9.  After the Health probe has updated. Select **Load balancing rules**. Select **+Add** and complete the configuration as shown below followed by selecting **Add**.
 

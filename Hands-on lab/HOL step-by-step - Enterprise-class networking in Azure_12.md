@@ -12,7 +12,7 @@ In this exercise, we will simulate an on-premises connection to the internal web
 
     -  Subscription: **Select your subscription**.
 
-    -  Resource group: Select **Create new**, and enter the name **OnPremVNetRG**.
+    -  Resource group: Select **OnPremVNetRG**.
 
     -  Name: **OnPremVNet**
 
@@ -22,7 +22,7 @@ In this exercise, we will simulate an on-premises connection to the internal web
 
 4.  Upon completion, it should look like the following screenshot and then click on **Review+Create** to validate the information is correct, and select **Next: IP Addresses**.
 
-    ![The create virtual network blade is shown with the above configuration values specified and the create button highlighted.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image121.png "Create virtual network")
+    ![The create virtual network blade is shown with the above configuration values specified and the create button highlighted.](images/onprem-vm.png "Create virtual network")
 
 5. On the **IP addresses** tab of the **Create virtual network blade**, enter the following information.
 
@@ -33,6 +33,8 @@ In this exercise, we will simulate an on-premises connection to the internal web
       -  Subnet name: **default**
 
       -  Subnet address range: **192.168.0.0/24**
+     
+     ![The create virtual network blade is shown with the above configuration values specified and the create button highlighted.](images/onprem-vm-create.png "Create virtual network")
 
 6. Select **Review + create** then **Create**.
 
@@ -44,9 +46,9 @@ In this exercise, we will simulate an on-premises connection to the internal web
 
     ![The OnPremVNet subnet blade with Subnets highlighted in the menu and the + Gateway subnet highlighted.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image122.png "Virtual network blade")
 
-3.  Specify the following configuration for the subnet, and select **OK**:
+3.  Specify the following configuration for the subnet, and select **Save**:
 
-    -  Address range: **192.168.1.0/29**
+    -  Subnet Address range: **192.168.1.0/29**
 
     -  Route table: **None** (We will add later.)
 
@@ -56,7 +58,7 @@ In this exercise, we will simulate an on-premises connection to the internal web
 
     - Name: **OnPremManagementSubnet**
   
-    - Address range: **192.168.2.0/29**
+    - Subnet Address range: **192.168.2.0/29**
   
     - Leave the rest of the values as their defaults. 
 
@@ -133,7 +135,7 @@ In this exercise, we will simulate an on-premises connection to the internal web
 
     ![The create virtual network gateway blade with the above configuration values set.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image177.png "Create virtual network gateway")
 
-3.  Validate your settings and select **Create**.
+3.  Validate your settings and select **Review + Create** then **Create**.
 
     >**Note:** The gateway will take 30-45 minutes to provision. You will need to wait until both gateways are provisioned before proceeding to the next section.
 

@@ -22,11 +22,13 @@ Duration: 15 minutes
    
 4.  On the **Create virtual network IP Addresses** tab, enter the following information:
 
-    -  Address space: **10.7.0.0/20**
+     -  IPv4 Address space: **10.7.0.0/20**
 
-    -  Subnet name: **GatewaySubnet** (Select the **default** name and change to this name.)
+    - Select **+ Add subnet** then enter the following information and select **Add**. 
 
-    -  Subnet address range: **10.7.0.0/29** and click on **Save**
+      - Subnet name: **GatewaySubnet**
+
+      - Subnet address range: **10.7.0.0/29**
 
 5.  Select **Next: Security**.
 
@@ -56,9 +58,7 @@ Duration: 15 minutes
 
     ![The create virtual network review + create dialog is displayed. The configuration options specified in the previous step are highlighted. ](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/20201112virtualnetworkreview.png "Create virtual network: Review + create")
 
-11. Upon completion, it should look like the following screenshot. Validate the information is correct, and select **Create**.
-
-    ![The create virtual network dialog is displayed. The configuration options specified in the previous step are highlighted. ](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image26.png "Create virtual network")
+11. Monitor the deployment status by selecting **Notifications Bell** at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select **Go to Resource**.
 
 
 ### Task 2: Configure subnets
@@ -66,7 +66,7 @@ Duration: 15 minutes
 1.  Go to the WGVNetRG1 Group, and select **WGVNet1 Virtual Network** blade if you're not there already, and select **Subnets** under **Settings** on the left.
 
     ![In the Virtual Network blade, under Settings, Subnets is selected.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image28.png "Virtual Network blade")
-14. Monitor the deployment status by selecting Notifications Bell at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select **Go to Resource**.
+
 2.  In the **Subnets** blade select **+Subnet**.
 
     ![In the Subnets blade, the add Subnet button is selected.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image29.png "Subnets blade")

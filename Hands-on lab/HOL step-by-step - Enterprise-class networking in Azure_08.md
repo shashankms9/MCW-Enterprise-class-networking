@@ -126,7 +126,7 @@ In this exercise, you will restrict traffic between tiers of n-tier application 
 
     -  Source: **IP Addresses**
 
-    -  Source IP addresses/CIDR ranges: **10.7.2.0/25, 10.7.5.0/24** (This IP address range represents the Bastion subnet on WGVNet1.)
+    -  Source IP addresses/CIDR ranges: **10.7.5.0/24** (This IP address range represents the Bastion subnet on WGVNet1.)
 
     -  Source port ranges: **\***
 
