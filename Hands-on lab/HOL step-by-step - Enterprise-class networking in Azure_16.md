@@ -56,15 +56,13 @@ In this exercise, you will collect the flow log and perform connectivity from yo
 
     - Traffic Analytics processing interval: **Every 10 minutes**
 
-    - Log Analytics Workspace: **The log analytics workspace you created earlier**
-
-    >**Note**: NSG Flow log creation may get failed due to permission issue but you could see flow logs successfully created as shown in the next step. 
+    - Log Analytics Workspace: **The log analytics workspace you created earlier*
 
 8.  Repeat Steps 5 - 7 to create a flow log for the **OnPremVM-nsg** Network Security Group as well. When completed your **NSG flow logs** blade on **Network Watcher** should look like what's depicted in the below image.
 
      ![In this screenshot, the 'Network Watcher - NSG flow logs' blade is depicted with the two flow logs created earlier listed.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image189.png "Network Watcher Flow Log")
 
-9.  Navigate back to the **OnPremVM**. Connect to it by downloading and opening the RDP file. Then open another RDP connection to the **WGWEB1** virtual machine within the connection to **OnPremVM**. In the RDP connection to **WGWEB1**, navigate to the load balancer's private ip address (**10.8.0.100**) and generate some traffic by refreshing the browser. Allow ten minutes to pass for traffic analytics to generate.  
+9.  Navigate back to the **OnPremVM**. Connect to it by downloading and opening the RDP file and enter the Password: **demo@pass123**. Open the web browser and browse for the website using the NIC private IP address which copied earlier. Then open another RDP connection to the **WGWEB1** virtual machine within the connection to **OnPremVM** using Private IP of the **WGWEB1** and enter the Username: **demouser** and Password: **demo@pass123**. In the RDP connection to **WGWEB1**, navigate to the load balancer's private ip address (**10.8.0.100**) and generate some traffic by refreshing the browser. Allow ten minutes to pass for traffic analytics to generate.  
 
      ![In this screenshot, the RDP connections to OnPremVM and WGWEB1 are depicted with the load balancer connection open.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image190.png "CloudShop Application")
 

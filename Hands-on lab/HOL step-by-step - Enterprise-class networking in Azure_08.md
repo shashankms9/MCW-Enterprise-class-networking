@@ -124,9 +124,9 @@ In this exercise, you will restrict traffic between tiers of n-tier application 
 
 10. On the **Add inbound security rule** blade, enter the following information, and select **Add**:
 
-    -  Source: **IP Addresses**
+    -  Source: **Service Tag**
 
-    -  Source IP addresses/CIDR ranges: **10.7.5.0/24** (This IP address range represents the Bastion subnet on WGVNet1.)
+    -  Source Service Tag: **Virtual Network**
 
     -  Source port ranges: **\***
 
@@ -142,7 +142,7 @@ In this exercise, you will restrict traffic between tiers of n-tier application 
 
     -  Name: **AllowMgmtInboundAny3389**
 
-    ![The add inbound security rule blade is shown with the above values populated and highlighted.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image179.png "Configure WGAppNSG1 AllowMgmtInboundAny3389 rule")
+    ![The add inbound security rule blade is shown with the above values populated and highlighted.](images/inbound-rule-1.png "Configure WGAppNSG1 AllowMgmtInboundAny3389 rule")
 
 11. On the **WGAppNSG1 - Inbound security rules** blade, select **Add**.
 
