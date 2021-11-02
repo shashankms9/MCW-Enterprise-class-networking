@@ -54,14 +54,16 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
     ![In the Name field in the Add backend pool blade is LBBE, and under Associated to, Virtual machine is selected.](images/2020-01-27-18-33-43.png "Add backend pool blade")
 
-4.  Under **Virtual machine**, choose the **WGWEB1** virtual machine and private IP address, then for the second virtual machine choose the **WGWEB2** virtual machine and private IP address.
+4.  Under **Virtual machine**, select **+ Add** and choose the **WGWEB1** and **WGWEB2** virtual machines and select **Add**.
 
-5.  Select **Add** to add the backend pool.
-
+5.  Select **Add** at the bottom of the **Add backend pool** blade to add the backend pool.
+  
 6.  Wait to proceed until the Backend pool configuration is finished updating.
 
     ![The WGWEBLB backend pools blade is shown. The two virtual machines in the backend pool show a status of running, indicating that the backend pool configuration is complete.](images/backendpool.png "Backend pool blade")
 
+     >**Note**: If you do not see WGWEB1 in the Virtual Machine selection list, the public IP address was not created as a Standard SKU.  Locate **webip** and in the **Overview** tile, select the **Upgrade to Standard SKU** banner to change the SKU.  You will need to change the IP to static in the **Configuration** and temporarily disassociate it from **WGWEB1NetworkInterface**.
+  
 7.  Next, under **Settings** on the WGWEBLB Load Balancer blade select **Health Probes**. Select **+ Add**, and use the following information to create a health probe.
 
     ![Under Settings, Health probes is selected. In the Add health probe blade, HTTP displays in the Name field, and Protocol is set to HTTP.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image73.png "Settings section, Add health probe blade")
