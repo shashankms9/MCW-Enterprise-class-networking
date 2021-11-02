@@ -6,11 +6,9 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
 ### Task 1: Create a load balancer to distribute load between the web servers
 
-1.  In the Azure portal, select **+ Create a resource**, then **Networking** and **Load Balancer**.
+1.  In the Azure portal, select **Load balancers** on the left navigation then select **+ Create**.
 
-    ![In the Azure Portal, New is selected. Under Azure Marketplace, Networking is selected, and under Featured, Load Balancer is selected.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image65.png "Azure Portal")
-
-2.  On the **Create load balancer** blade, on the **Basics** tab, enter the following values and select **Next: Frontend IP Configuration**
+2.  On the **Create load balancer** blade, on the **Basics** tab, enter the following values:
 
     -  Subscription: **Select your subscription**.
 
@@ -18,28 +16,31 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
     -  Name: **WGWEBLB**
 
-    -  Region: **(US) South Central US**
+    -  Region: **South Central US**
 
     -  Type: **Internal**
 
     -  SKU: **Standard**
-    
-    ![The create load balancer blade is shown with the above configuration values set.](images/load-balancer-create.png "Create load balancer")
-    
-3.  In **Frontend IP Configuration**, select  **Add a frontend IP**. Enter the following values in the right-side **Add frontend IP address** tab and select **Add**:
 
-    -  Name: **LBFE**
+    Ensure your **Create load balancer** dialog looks like the following, and select **Next: Frontend IP configuration** then select **Create**.
 
+    ![In this screenshot, the 'Create load balancer' blade is depicted with the required settings listed above selected along with the 'Next: Frontend IP configuration' button.](images/load-balancer-101.png "Create load balancer")
+
+3. On the **Frontend IP configuration** tile, select **+ Add a frontend IP configuration and enter the following values:
+
+    -  Name: **WGWEBLBIP**
+  
     -  Virtual network: **WGVNet2**
 
     -  Subnet: **AppSubnet (10.8.0.0/25)**
 
     -  IP address assignment: Select **Static** and enter the IP address **10.8.0.100**.
-    
- 4.  After adding a Frontend IP then select **Review + create** check for Validation Passed and select **Create**.
- 
-     ![The create load balancer blade is shown with the above configuration values set.](images/load-balancer-finish.png "Create load balancer")
-     
+
+    Ensure your **Create load balancer - Frontend IP configuration** dialog looks like the following, and select **Add**, **Review + create** then select **Create**.
+
+    ![In this screenshot, the 'Frontend IP configuration' blade is depicted with the required settings listed above selected along with the 'Review + create' button.](images/load-balancer-102.png "Frontend IP configuration")
+
+    >**Note**: **Backend pools** can now be configured within the **Create Load balancer** wizard.  For this exercise, we will complete this in the next task.
 
 ### Task 2: Configure the load balancer
 
