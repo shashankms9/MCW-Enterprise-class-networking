@@ -104,6 +104,8 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
     ![A CloudShop Demo - Products - running on Web2 message displays. ](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image78.png "Server response")
 
+   >**Note**: If the website not loaded as expected. Connect WGWEB2 via Bastion, use the given credentials for login to WGWEB2 i.e, Username: **demouser** Password: **demo@pass123**. Open your browser and navigate to <http://10.8.0.100>. Ensure that you successfully connect to either one of two Web servers. Then close WGWEB2 Bastion and re-do the step 10.
+
 11. Using the portal, disassociate the public IP from the NIC of **WGWEB1** **VM**. Do this by navigating to the VM and selecting **Networking** under **Settings** on the left. Select the **NIC Public IP** then choose **Dissociate**. Select **Yes** when prompted.
 
     ![Selection of the Networking section on the VM with the NIC Public IP highlighted.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image79.png "Virtual machine networking blade")
