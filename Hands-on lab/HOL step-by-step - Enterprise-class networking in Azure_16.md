@@ -6,7 +6,7 @@ In this exercise, you will collect the flow log and perform connectivity from yo
 
 ### Task 1: Configuring the Storage Account for the NSG Flow Logs
 
-1. On the Azure portal select **+ Create a resource**. From the Azure Marketplace menu select **storage** then select **Storage Account**
+1. On the Azure portal select **+ Create a resource**. Select **Storage Account**.
 
 2. On the **Create Storage account** blade. Enter the following information, and select **Review + Create** then select the **Create** button:
 
@@ -20,11 +20,11 @@ In this exercise, you will collect the flow log and perform connectivity from yo
 
     -  Performance: **Standard**
 
-       -  Account Kind: **StorageV2 (general purpose v2)**
+    -  Account Kind: **StorageV2 (general purpose v2)**
 
     -  Replication: **Locally-redundant storage (LRS)**
 
-    ![The create storage account blade with the above configuration values set.](images/storage-account-new.png "Add storage account")
+    ![In this screenshot, the 'Create storage account' blade is depicted with the above required settings selected along with the 'Review + create' button.](images/accountstorage1.png "Add storage account")
 
    >**Note:** Ensure the storage account is created before continuing.
 
@@ -62,7 +62,25 @@ In this exercise, you will collect the flow log and perform connectivity from yo
 
      ![In this screenshot, the 'Network Watcher - NSG flow logs' blade is depicted with the two flow logs created earlier listed.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image189.png "Network Watcher Flow Log")
 
-9.  Navigate back to the **OnPremVM**. Connect to it by downloading and opening the RDP file and enter the Password: **demo@pass123**. Open the web browser and browse for the website using the NIC private IP address which copied earlier. Then open another RDP connection to the **WGWEB1** virtual machine within the connection to **OnPremVM** using Private IP of the **WGWEB1** and enter the Username: **demouser** and Password: **demo@pass123**. In the RDP connection to **WGWEB1**, navigate to the load balancer's private ip address (**10.8.0.100**) and generate some traffic by refreshing the browser. Allow ten minutes to pass for traffic analytics to generate.  
+9.  Navigate back to the **OnPremVM**. Connect to it by downloading and opening the RDP file. 
+    
+10. Install the **Edge** browser on the **OnPremVM** by opening **PowerShell** and running the following commands.  The first command will force TLS 1.2 use for PowerShell:
+    
+    ```
+    [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12
+
+    [enum]::GetNames([System.Net.SecurityProtocolType])
+        
+    md -Path $env:temp\edgeinstall -erroraction SilentlyContinue | Out-Null
+    $Download = join-path $env:temp\edgeinstall MicrosoftEdgeEnterpriseX64.msi
+
+    Invoke-WebRequest 'https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/a2662b5b-97d0-4312-8946-598355851b3b/MicrosoftEdgeEnterpriseX64.msi'  -OutFile $Download
+
+    Start-Process "$Download" -ArgumentList "/quiet /passive"
+
+11. Open the **Edge** browser and navigate to portal.azure.com.  Login to the **Azure** portal.
+    
+12. In the RDP session for the **OnPremVM**, navigate to the **Azure** portal, navigate to **Virtual machines** and select the **WGWEB1**. Connect to **WGWEB1** through **Bastion**.  In **WGWEB1**,  navigate to the load balancer's private ip address (**10.8.0.100**) and generate some traffic by refreshing the browser. Allow ten minutes to pass for traffic analytics to generate.  
 
      ![In this screenshot, the RDP connections to OnPremVM and WGWEB1 are depicted with the load balancer connection open.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image190.png "CloudShop Application")
 
