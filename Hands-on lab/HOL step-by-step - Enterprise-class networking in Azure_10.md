@@ -80,7 +80,7 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
     - Name: **HTTP**
   
-    - FrontEnd ip address: **LBFE(10.8.0.100)**
+    - FrontEnd ip address: **WGWEBLBIP(10.8.0.100)**
    
     - Protocol: **TCP**
 
