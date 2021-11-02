@@ -13,7 +13,7 @@ In this exercise, you will validate connectivity from your simulated on-premises
     -  Subscription: **Select your subscription**.
 
     -  Resource group: **OnPremVMRG**.
-
+    
     -  Virtual machine name: **OnPremVM**
 
     -  Region: **(US) East US** (This must much the region you created the OnPremVNet virtual network.)
@@ -26,7 +26,7 @@ In this exercise, you will validate connectivity from your simulated on-premises
 
     -  User name: **demouser**
 
-    -  Password: **demo\@pass123**
+    -  Password: **demo@pass123**
 
     -  Public inbound ports: **Allow selected ports**
 
@@ -115,7 +115,6 @@ When packets arrive from the simulated 'on-premises' Virtual Network (OnPremVNet
 10. On the **Associate subnet** blade, select **WGVNet1** under the **Virtual Network** drop down and select **GatewaySubnet** under the **Subnet** drop down.
 
     ![The associate subnet blade with WGVNet1 selected and GatewaySubnet selected.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image148.png "Associate subnet")
-
 
        > Note: At this point, you have configured your enterprise network. You should be able to test your Enterprise Class Network from one region to another. Your testing can include the following scenarios:
 

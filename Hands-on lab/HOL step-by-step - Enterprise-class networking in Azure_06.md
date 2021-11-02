@@ -22,13 +22,19 @@ Duration: 15 minutes
    
 4.  On the **Create virtual network IP Addresses** tab, enter the following information:
 
-     -  IPv4 Address space: **10.7.0.0/20**
+    -  IPv4 Address space: **10.7.0.0/20**
 
     - Select **+ Add subnet** then enter the following information and select **Add**. 
 
-      - Subnet name: **GatewaySubnet**
+    - Subnet name: **GatewaySubnet**
 
-      - Subnet address range: **10.7.0.0/29**
+    - Subnet address range: **10.7.0.0/29**
+
+    -  Address space: **10.7.0.0/20**
+
+    -  Subnet name: **GatewaySubnet** (Select the **default** name and change to this name.)
+
+    -  Subnet address range: **10.7.0.0/29**
 
 5.  Select **Next: Security**.
 
@@ -59,7 +65,6 @@ Duration: 15 minutes
     ![The create virtual network review + create dialog is displayed. The configuration options specified in the previous step are highlighted. ](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/20201112virtualnetworkreview.png "Create virtual network: Review + create")
 
 11. Monitor the deployment status by selecting **Notifications Bell** at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select **Go to Resource**.
-
 
 ### Task 2: Configure subnets
 

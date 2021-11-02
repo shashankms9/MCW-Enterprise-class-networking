@@ -76,9 +76,9 @@ In this exercise, you will create and configure a load balancer to distribute lo
     
     ![In the Add health probe blade, Name is HTTP, and Protocol is HTTP.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image75.png "Add health probe blade")
 
-8.  Select **Add**.
+9.  Select **Add**.
 
-9.  After the Health probe has updated. Select **Load balancing rules**. Select **+Add** and complete the configuration as shown below followed by selecting **Add**.
+10.  After the Health probe has updated. Select **Load balancing rules**. Select **+Add** and complete the configuration as shown below followed by selecting **Add**.
 
     - Name: **HTTP**
   
@@ -98,7 +98,7 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
     **It will take 2-3 minutes for the changes to save.**
 
-10. Connect to WGWEB1 via Bastion, use the given credentials for login to WGWEB1 i.e, Username: **demouser** Password: **demo@pass123**. Open your browser and navigate to <http://10.8.0.100>. Ensure that you successfully connect to either one of two Web servers.
+11. Connect to WGWEB1 via Bastion, use the given credentials for login to WGWEB1 i.e, Username: **demouser** Password: **demo@pass123**. Open your browser and navigate to <http://10.8.0.100>. Ensure that you successfully connect to either one of two Web servers.
 
     ![A CloudShop Demo - Products - running on Web1 message displays. ](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image77.png "Server response")
 
@@ -106,19 +106,19 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
    >**Note**: If the website not loaded as expected. Connect WGWEB2 via Bastion, use the given credentials for login to WGWEB2 i.e, Username: **demouser** Password: **demo@pass123**. Open your browser and navigate to <http://10.8.0.100>. Ensure that you successfully connect to either one of two Web servers. Then close WGWEB2 Bastion and re-do the step 10.
 
-11. Using the portal, disassociate the public IP from the NIC of **WGWEB1** **VM**. Do this by navigating to the VM and selecting **Networking** under **Settings** on the left. Select the **NIC Public IP** then choose **Dissociate**. Select **Yes** when prompted.
+12. Using the portal, disassociate the public IP from the NIC of **WGWEB1** **VM**. Do this by navigating to the VM and selecting **Networking** under **Settings** on the left. Select the **NIC Public IP** then choose **Dissociate**. Select **Yes** when prompted.
 
     ![Selection of the Networking section on the VM with the NIC Public IP highlighted.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image79.png "Virtual machine networking blade")
 
-12. Next, return to the **WGWEB1 - Networking** blade and select the **Network Interface**
+13. Next, return to the **WGWEB1 - Networking** blade and select the **Network Interface**
 
-13. Select **IP configurations** under **Settings** on the left.
+14. Select **IP configurations** under **Settings** on the left.
 
     ![Selection of the IP Configuration section in the settings menu.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image169.png "Network interface blade")
 
-14. Next, select **ipconfig1** shown above.
+15. Next, select **ipconfig1** shown above.
 
-15. Select and make sure that the **Public IP address settings** is shown as disabled, and select **Save** if necessary. This should remove the public IP address from the network interface of the VM.
+16. Select and make sure that the **Public IP address settings** is shown as disabled, and select **Save** if necessary. This should remove the public IP address from the network interface of the VM.
 
     ![The ipconfig1 blade of the WGWEBNetworkInterface. Disabling of the Public IP address settings is highlighted along with the save button.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image170.png "IP configuration blade")
 

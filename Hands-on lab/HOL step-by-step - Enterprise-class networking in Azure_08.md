@@ -120,6 +120,7 @@ In this exercise, you will restrict traffic between tiers of n-tier application 
 
     ![The add inbound security rule blade is shown with the above values populated and highlighted.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image147.png "Configure WGAppNSG1 AllowAnyWebTierInboundTCP80 rule")
 
+
 9.  On the **WGAppNSG1 - Inbound security rules** blade, select **+Add**.
 
 10. On the **Add inbound security rule** blade, enter the following information, and select **Add**:
