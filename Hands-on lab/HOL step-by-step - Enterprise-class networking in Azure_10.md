@@ -80,23 +80,23 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
 10.  After the Health probe has updated. Select **Load balancing rules**. Select **+Add** and complete the configuration as shown below followed by selecting **Add**.
 
-    - Name: **HTTP**
+     - Name: **HTTP**
   
-    - FrontEnd ip address: **WGWEBLBIP(10.8.0.100)**
+     - FrontEnd ip address: **WGWEBLBIP(10.8.0.100)**
    
-    - Protocol: **TCP**
+     - Protocol: **TCP**
 
-    - Port: **80**   
+     - Port: **80**   
 
-    - Backend port: **80**
+     - Backend port: **80**
 
-    - Backend pool: **LBBE**
+     - Backend pool: **LBBE**
 
-    - Health probe: **HTTP(HTTP:80)**
+      Health probe: **HTTP(HTTP:80)**
 
-    ![The add load balancing rule blade for the WGWEBLB load balancer is displayed with the name set to HTTP and all of the remaining configurations set to the default.](images/loadbalancer-5.png "Add load balancing rule")
+   ![The add load balancing rule blade for the WGWEBLB load balancer is displayed with the name set to HTTP and all of the remaining configurations set to the default.](images/loadbalancer-5.png "Add load balancing rule")
 
-    **It will take 2-3 minutes for the changes to save.**
+   **It will take 2-3 minutes for the changes to save.**
 
 11. Connect to WGWEB1 via Bastion, use the given credentials for login to WGWEB1 i.e, Username: **demouser** Password: **demo@pass123**. Open your browser and navigate to <http://10.8.0.100>. Ensure that you successfully connect to either one of two Web servers.
 
