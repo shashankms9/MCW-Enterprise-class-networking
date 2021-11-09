@@ -78,7 +78,7 @@ In this exercise, you will collect the flow log and perform connectivity from yo
 
     Start-Process "$Download" -ArgumentList "/quiet /passive"
 
-11. Open the **Edge** browser and navigate to portal.azure.com.  Login to the **Azure** portal.
+11. Open the **Edge** browser and navigate to https://portal.azure.com.  Login to the **Azure** portal.
     
 12. In the RDP session for the **OnPremVM**, navigate to the **Azure** portal, navigate to **Virtual machines** and select the **WGWEB1**. Connect to **WGWEB1** through **Bastion**.  In **WGWEB1**,  navigate to the load balancer's private ip address (**10.8.0.100**) and generate some traffic by refreshing the browser. Allow ten minutes to pass for traffic analytics to generate.  
 
