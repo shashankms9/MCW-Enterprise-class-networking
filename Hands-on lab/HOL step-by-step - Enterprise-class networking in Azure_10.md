@@ -92,7 +92,7 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
      - Backend pool: **LBBE**
 
-      Health probe: **HTTP(HTTP:80)**
+     - Health probe: **HTTP(HTTP:80)**
 
    ![The add load balancing rule blade for the WGWEBLB load balancer is displayed with the name set to HTTP and all of the remaining configurations set to the default.](images/loadbalancer-5.png "Add load balancing rule")
 
