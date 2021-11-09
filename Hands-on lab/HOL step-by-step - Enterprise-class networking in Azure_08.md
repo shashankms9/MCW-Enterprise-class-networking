@@ -120,13 +120,14 @@ In this exercise, you will restrict traffic between tiers of n-tier application 
 
     ![The add inbound security rule blade is shown with the above values populated and highlighted.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image147.png "Configure WGAppNSG1 AllowAnyWebTierInboundTCP80 rule")
 
+
 9.  On the **WGAppNSG1 - Inbound security rules** blade, select **+Add**.
 
 10. On the **Add inbound security rule** blade, enter the following information, and select **Add**:
 
-    -  Source: **Service Tag**
+    -  Source: **IP Addresses**
 
-    -  Source Service Tag: **Virtual Network**
+    -  Source IP addresses/CIDR ranges: **10.7.2.0/25, 10.7.5.0/24** (This IP address range represents the Bastion subnet on WGVNet1.)
 
     -  Source port ranges: **\***
 
@@ -141,8 +142,8 @@ In this exercise, you will restrict traffic between tiers of n-tier application 
     -  Priority: **200**
 
     -  Name: **AllowMgmtInboundAny3389**
-
-    ![The add inbound security rule blade is shown with the above values populated and highlighted.](images/inbound-rule-1.png "Configure WGAppNSG1 AllowMgmtInboundAny3389 rule")
+ 
+      ![In this screenshot, the 'Add inbound security rule' blade of the Azure portal is depicted with the above required settings selected.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image179.png "Configure WGAppNSG1 AllowMgmtInboundAny3389 rule")
 
 11. On the **WGAppNSG1 - Inbound security rules** blade, select **Add**.
 

@@ -13,10 +13,10 @@ Route Tables are containers for User Defined Routes (UDRs). The route table is c
     -  Subscription: **Select your subscription**.
 
     -  Resource group: Select **WGVNetRG1** from the drop down.
+    
+    -  Name: **MgmtRT**
 
     -  Region: **(US) South Central US**
-
-    -  Name: **MgmtRT**
 
     -  Propagate gateway routes: **Yes**
 
@@ -29,10 +29,10 @@ Route Tables are containers for User Defined Routes (UDRs). The route table is c
     -  Subscription: **Select your subscription**.
 
     -  Resource group: Select **WGVNetRG2** from the drop down.
+    
+    -  Name: **AppRT**
 
     -  Region: **(US) South Central US**
-
-    -  Name: **AppRT**
 
     -  Propagate gateway routes: **Yes**
 

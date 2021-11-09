@@ -13,7 +13,7 @@ In this exercise, you will validate connectivity from your simulated on-premises
     -  Subscription: **Select your subscription**.
 
     -  Resource group: **OnPremVMRG**.
-
+    
     -  Virtual machine name: **OnPremVM**
 
     -  Region: **(US) East US** (This must much the region you created the OnPremVNet virtual network.)
@@ -26,7 +26,7 @@ In this exercise, you will validate connectivity from your simulated on-premises
 
     -  User name: **demouser**
 
-    -  Password: **demo\@pass123**
+    -  Password: **demo@pass123**
 
     -  Public inbound ports: **Allow selected ports**
 
@@ -116,8 +116,7 @@ When packets arrive from the simulated 'on-premises' Virtual Network (OnPremVNet
 
     ![The associate subnet blade with WGVNet1 selected and GatewaySubnet selected.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image148.png "Associate subnet")
 
-
-       Note: At this point, you have configured your enterprise network. You should be able to test your Enterprise Class Network from one region to another. Your testing can include the following scenarios:
+       > Note: At this point, you have configured your enterprise network. You should be able to test your Enterprise Class Network from one region to another. Your testing can include the following scenarios:
 
     -  On the 'on-premises' virtual machine (OnPremVM), attempt to initiate a Remote Desktop session to any virtual machine on the AppSubnet (10.8.0.0/25). Note that this should fail since it is blocked by Azure Firewall.
 
